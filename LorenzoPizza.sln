@@ -15,7 +15,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{54E9DAE0-8CF6-4629-B7D5-3B4F0FCC897E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{02861100-D660-42B0-85D6-3CBD88D9B1F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LorenzoPizza.Maui", "LorenzoPizza.Maui\LorenzoPizza.Maui.csproj", "{BA805BFA-BEA3-4BA2-8E3F-99EBEC1FB97E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA805BFA-BEA3-4BA2-8E3F-99EBEC1FB97E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA805BFA-BEA3-4BA2-8E3F-99EBEC1FB97E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA805BFA-BEA3-4BA2-8E3F-99EBEC1FB97E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BA805BFA-BEA3-4BA2-8E3F-99EBEC1FB97E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA805BFA-BEA3-4BA2-8E3F-99EBEC1FB97E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA805BFA-BEA3-4BA2-8E3F-99EBEC1FB97E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
@@ -24,6 +40,8 @@ Global
 		{EF278E45-06B7-4E23-8F74-4F59201A9D0A} = {E49DB29F-8922-40B1-A534-5933CA024C80}
 		{356CC093-20EC-4921-8F3A-A934FA67C5D0} = {E49DB29F-8922-40B1-A534-5933CA024C80}
 		{54E9DAE0-8CF6-4629-B7D5-3B4F0FCC897E} = {E49DB29F-8922-40B1-A534-5933CA024C80}
+		{02861100-D660-42B0-85D6-3CBD88D9B1F8} = {54E9DAE0-8CF6-4629-B7D5-3B4F0FCC897E}
+		{BA805BFA-BEA3-4BA2-8E3F-99EBEC1FB97E} = {02861100-D660-42B0-85D6-3CBD88D9B1F8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CD647B9C-5FD8-4259-89F6-05DE245B8855}
